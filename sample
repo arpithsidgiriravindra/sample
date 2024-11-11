@@ -1,0 +1,24 @@
+#different data types in python
+#string,int,float,list,tuple,dict,and set
+string_demo="hi,arpith"
+grade=10
+percentage=68.5
+print(string_demo+" is in grade "+str(grade)+" his percentage is "+str(percentage))
+#list is a collecation of differrent varieables of any types 
+# to declare a list use[]
+list_int=[10,20,30,40]
+list_str=["arpith","gagan","dahnush"]
+list_mix=[102,23.6,"ob"]
+print(list_int)
+print(list_str)
+print(list_mix)
+#to print 1st element of list use index 0
+print(list_int[0])
+print(list_int[1])
+print(list_int[2])
+print(list_int[3])
+#to find length of a list use len function
+print(len(list_int))
+#to add more elements to list use append function
+list_int.append(70)
+print(list_int)
